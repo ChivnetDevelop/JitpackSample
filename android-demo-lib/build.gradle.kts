@@ -5,10 +5,10 @@ plugins {
 
 android {
     namespace = "com.chivnet.android_demo_lib"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
-        minSdk = 31
+        minSdk = 35
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
