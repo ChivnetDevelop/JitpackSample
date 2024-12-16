@@ -4,6 +4,6 @@ jdk:
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
 install:
-  - FILE="-Dfile=android-demo-lib-debug.aar" #com-atifqamar-customtoast.aar
-  - mvn install:install-file $FILE -DgroupId=com.github.ChivnetDevelop -DartifactId=android-demo-lib -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE="-Dfile=android-demo-lib-release.aar" #com-atifqamar-customtoast.aar
+  - mvn install:install-file $FILE -DgroupId=com.github.ChivnetDevelop -DartifactId=JitpackSample -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
   #com.github.geek-atif                      #com-atifqamar-customtoast  #1.0
